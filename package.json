@@ -1,0 +1,73 @@
+{
+  "name": "stepeight",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^5.6.0",
+    "@capacitor/camera": "^5.0.9",
+    "@capacitor/core": "^5.6.0",
+    "@capacitor/filesystem": "^5.2.1",
+    "@capacitor/geolocation": "^5.0.7",
+    "@capacitor/local-notifications": "^5.0.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.76",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "framework7": "^8.3.0",
+    "framework7-react": "^8.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^11.0.5",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "exports": {
+    ".": "./framework7.esm.js",
+    "./core": "./framework7.esm.js",
+    "./bundle": "./framework7-bundle.esm.js",
+    "./lite": "./framework7-lite.esm.js",
+    "./lite/bundle": "./framework7-lite-bundle.esm.js",
+    "./lite-bundle": "./framework7-lite-bundle.esm.js",
+    "./less": "./framework7.less",
+    "./css": "./framework7.css",
+    "./css/rtl": "./framework7-rtl.css",
+    "./css/bundle": "./framework7-bundle.css",
+    "./css/bundle/rtl": "./framework7-bundle-rtl.css",
+    "./types": "./framework7-types.d.ts",
+    "./components/dialog": "./components/dialog/dialog.js",
+    "./components/dialog/less": "./components/dialog/dialog.less",
+    "./components/dialog/css": "./components/dialog/dialog.css",
+    "./components/dialog/css/rtl": "./components/dialog/dialog-rtl.css"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.6.0"
+  }
+}
